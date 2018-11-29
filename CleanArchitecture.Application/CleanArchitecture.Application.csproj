@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ShoppingLists\Commands\CreateShoppingList\" />
     <Folder Include="ShoppingLists\Queries\GetShoppingListDetail\" />
   </ItemGroup>
 

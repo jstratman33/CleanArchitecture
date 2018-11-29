@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using CleanArchitecture.Application.ShoppingItems.Models;
 
 namespace CleanArchitecture.Application.ShoppingLists.Models
 {

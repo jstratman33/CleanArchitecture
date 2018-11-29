@@ -1,7 +1,7 @@
 ﻿using System;
 using CleanArchitecture.Domain.Enumerations;
 
-namespace CleanArchitecture.Application.ShoppingItems.Models
+namespace CleanArchitecture.Application.ShoppingLists.Models
 {
     public class ShoppingItemModel
     {

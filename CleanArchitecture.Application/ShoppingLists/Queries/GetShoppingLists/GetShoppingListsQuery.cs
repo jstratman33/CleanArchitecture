@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using CleanArchitecture.Application.Interfaces.Repositories;
-using CleanArchitecture.Application.ShoppingItems.Models;
 using CleanArchitecture.Application.ShoppingLists.Models;
 
 namespace CleanArchitecture.Application.ShoppingLists.Queries.GetShoppingLists
