@@ -3,7 +3,7 @@ using CleanArchitecture.Domain.Enumerations;
 
 namespace CleanArchitecture.Domain.Entities
 {
-    public class ShoppingItem
+    public class ShoppingItem : IEntity
     {
         public long Id { get; set; }
         public DateTime AddedTime { get; set; }

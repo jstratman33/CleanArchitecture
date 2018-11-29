@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CleanArchitecture.Domain.Entities
 {
-    public class ShoppingList
+    public class ShoppingList : IEntity
     {
         public long Id { get; set; }
         public DateTime AddedTime { get; set; }
