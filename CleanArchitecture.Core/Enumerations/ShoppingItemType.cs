@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Core.Enumerations
+﻿namespace CleanArchitecture.Domain.Enumerations
 {
     public enum ShoppingItemType
     {

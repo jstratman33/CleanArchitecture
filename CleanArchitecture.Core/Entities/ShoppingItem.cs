@@ -1,7 +1,7 @@
 ﻿using System;
-using CleanArchitecture.Core.Enumerations;
+using CleanArchitecture.Domain.Enumerations;
 
-namespace CleanArchitecture.Core.Entities
+namespace CleanArchitecture.Domain.Entities
 {
     public class ShoppingItem
     {

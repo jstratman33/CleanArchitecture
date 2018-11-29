@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Core.Entities;
+﻿using CleanArchitecture.Domain.Entities;
 using CleanArchitecture.EntityFrameworkCore.Configurations;
 using Microsoft.EntityFrameworkCore;
 

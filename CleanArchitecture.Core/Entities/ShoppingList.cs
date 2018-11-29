@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CleanArchitecture.Core.Entities
+namespace CleanArchitecture.Domain.Entities
 {
     public class ShoppingList
     {
