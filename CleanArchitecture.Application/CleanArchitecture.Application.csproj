@@ -8,4 +8,9 @@
     <ProjectReference Include="..\CleanArchitecture.Core\CleanArchitecture.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ShoppingLists\Commands\CreateShoppingList\" />
+    <Folder Include="ShoppingLists\Queries\GetShoppingListDetail\" />
+  </ItemGroup>
+
 </Project>
