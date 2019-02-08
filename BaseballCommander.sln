@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Api", "BaseballCommander.Api\BaseballCommander.Api.csproj", "{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{06B91BFE-FA2A-4475-9C38-7F523F114469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{91BE5318-F3D0-468D-B894-0D90567FF2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9803B02D-30A0-49F3-A1C2-BCFE932AB088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FA04F554-C6DE-4626-A897-8C30436832B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Console", "BaseballCommander.Console\BaseballCommander.Console.csproj", "{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Data.EFCore", "BaseballCommander.Data.EFCore\BaseballCommander.Data.EFCore.csproj", "{B5DC4B8F-9C75-44F2-9714-0DC556994E86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Domain", "BaseballCommander.Domain\BaseballCommander.Domain.csproj", "{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Domain.Tests", "BaseballCommander.Domain.Tests\BaseballCommander.Domain.Tests.csproj", "{05E72793-7026-4AC3-BA2D-14A423DC6F95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Application", "BaseballCommander.Application\BaseballCommander.Application.csproj", "{96F18F73-7917-4FEF-A770-C4B7F05D2E48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.Application.Tests", "BaseballCommander.Application.Tests\BaseballCommander.Application.Tests.csproj", "{96A7C12F-245C-45B2-90AE-89BD7D5ED640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseballCommander.NotificationService", "BaseballCommander.NotificationService\BaseballCommander.NotificationService.csproj", "{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DC4B8F-9C75-44F2-9714-0DC556994E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DC4B8F-9C75-44F2-9714-0DC556994E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DC4B8F-9C75-44F2-9714-0DC556994E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DC4B8F-9C75-44F2-9714-0DC556994E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E72793-7026-4AC3-BA2D-14A423DC6F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E72793-7026-4AC3-BA2D-14A423DC6F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E72793-7026-4AC3-BA2D-14A423DC6F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E72793-7026-4AC3-BA2D-14A423DC6F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F18F73-7917-4FEF-A770-C4B7F05D2E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F18F73-7917-4FEF-A770-C4B7F05D2E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F18F73-7917-4FEF-A770-C4B7F05D2E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F18F73-7917-4FEF-A770-C4B7F05D2E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A7C12F-245C-45B2-90AE-89BD7D5ED640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A7C12F-245C-45B2-90AE-89BD7D5ED640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A7C12F-245C-45B2-90AE-89BD7D5ED640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A7C12F-245C-45B2-90AE-89BD7D5ED640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F6069EE-BFE5-4DF3-A96E-A2DF99A5628A} = {91BE5318-F3D0-468D-B894-0D90567FF2A2}
+		{84832DC5-7E4A-4C61-A7BB-9B1C79F56CDF} = {91BE5318-F3D0-468D-B894-0D90567FF2A2}
+		{B5DC4B8F-9C75-44F2-9714-0DC556994E86} = {9803B02D-30A0-49F3-A1C2-BCFE932AB088}
+		{05B74F08-CB11-4A0F-9B95-ED31F6EDFE8D} = {06B91BFE-FA2A-4475-9C38-7F523F114469}
+		{05E72793-7026-4AC3-BA2D-14A423DC6F95} = {FA04F554-C6DE-4626-A897-8C30436832B5}
+		{96F18F73-7917-4FEF-A770-C4B7F05D2E48} = {06B91BFE-FA2A-4475-9C38-7F523F114469}
+		{96A7C12F-245C-45B2-90AE-89BD7D5ED640} = {FA04F554-C6DE-4626-A897-8C30436832B5}
+		{A7ACDD7C-04AE-49EB-8FB3-7D7F14187B5A} = {9803B02D-30A0-49F3-A1C2-BCFE932AB088}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C09DF02-ED91-4701-8C13-8CD278D1464B}
+	EndGlobalSection
+EndGlobal
